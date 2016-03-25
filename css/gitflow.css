@@ -1,0 +1,64 @@
+.hotfix-end, .hotfix-start, .release-end, .release-start, .feature-end, .feature-start {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../images/flow-sprites.png');
+    border-radius: 25px;
+    width: 300px;
+    height: 222px;
+    position: relative;
+    z-index: 99;
+}
+
+.feature-publish {
+    display: inline-block;
+    background-repeat: no-repeat;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 120px;
+    position: relative;
+
+    background-image: url('../images/feature-publish.png');
+    background-position: center;
+
+}
+
+.feature-pull {
+    display: inline-block;
+    background-repeat: no-repeat;
+
+    border-radius: 25px;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    z-index: 99;
+    margin-left: -21px;
+
+    background-image: url('../images/feature-pull.png');
+    background-position: center;
+
+}
+
+.hotfix-end {
+    background-position: 0px 0px;
+}
+
+.hotfix-start {
+    background-position: 0px -222px;
+}
+
+.release-end {
+    background-position: 0px -444px;
+}
+
+.release-start {
+    background-position: 0px -666px;
+}
+
+.feature-end {
+    background-position: 0px -888px;
+}
+
+.feature-start {
+    background-position: 0px -1110px;
+}
