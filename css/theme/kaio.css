@@ -1,0 +1,46 @@
+body{
+    background:url("kaio_background.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.reveal pre{
+    width: 100%;
+}
+
+.reveal img.img-inline{
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+}
+
+.reveal img.img-inline-big{
+    width: 128px;
+    height: 128px;
+    vertical-align: bottom;
+}
+
+.kaio_light_blue{
+    color: #9CC8F1;
+}
+.kaio_dark_blue{
+    color: #5EA4E2;
+}
+.kaio_light_grey{
+    color: #D0CBEE;
+}
+.kaio_dark_grey{
+    color: #9E99C2;
+}
+.kaio_light_red{
+    color: #C72973;
+}
+.kaio_dark_red{
+    color: #BC1B45;
+}
+.kaio_gold{
+    color: #CF9D1C;
+}
+.kaio_black{
+    color: #000000;
+}
